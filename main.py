@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 
-st.title("Калькулятор расчёта сделок на баскетбол")
+st.title("Расчёт ставок для баскетбола")
 age_columns = st.columns(2)
 koef_1 = age_columns[0].slider("Коэффициент 1 четверти", min_value=1.01, max_value=3., step=0.01)
 b_1 = age_columns[1].number_input("Первая ставка", value=35)

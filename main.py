@@ -22,3 +22,6 @@ age_columns_4 = st.columns(2)
 koef_4 = age_columns_4[0].slider("Коэффициент 4 четверти", min_value=1.01, max_value=3., step=0.01)
 b_4 = np.round((win_money + b_3 + b_2 + b_1) / (koef_4 - 1), 2)
 age_columns_4[1].write(f"Размер ставки 4 четверть: **{b_4}**")
+
+st.markdown("---")
+st.markdown("Ещё больше полезного в нашем приложении http://bit.ly/99betapp")

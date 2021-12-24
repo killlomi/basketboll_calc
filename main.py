@@ -24,4 +24,5 @@ b_4 = np.round((win_money + b_3 + b_2 + b_1) / (koef_4 - 1), 2)
 age_columns_4[1].write(f"Размер ставки 4 четверть: **{b_4}**")
 
 st.markdown("---")
-st.markdown("Ещё больше полезного в нашем приложении http://bit.ly/99betapp")
+# st.markdown("Ещё больше полезного в нашем приложении http://bit.ly/99betapp")
+st.markdown("Бесплатные сигналы по стратегии и отчеты с +200% к банку http://bit.ly/telebet99. После 2000 подписчиков халява закончится!")
